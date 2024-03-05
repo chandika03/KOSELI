@@ -28,7 +28,7 @@
   <link href="css/responsive.css" rel="stylesheet" />
 </head>
 
-<body>
+<body class="sub_page">
 
   <div class="hero_area">
     <!-- header section strats -->
@@ -113,205 +113,53 @@
       </div>
     </header>
     <!-- end header section -->
-    <!-- slider section -->
-    <section class=" slider_section position-relative">
-      <div class="design-box">
-        <img src="images/design-1.png" alt="">
-      </div>
-      <div class="slider_number-container d-none d-md-block">
-        <div class="number-box">
-          <span>
-            01
-          </span>
-          <hr>
-          <span class="jwel">
-            K <br>
-            O <br>
-            S <br>
-            E <br>
-            L <br>
-            I 
-          </span>
-          <hr>
-          <span>
-            02
-          </span>
-        </div>
-      </div>
-      <div class="container">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">01</li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1">02</li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2">03</li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="detail_box">
-                    <h2>
-                      <span> New Collection</span>
-                      <hr>
-                    </h2>
-                    <h1>
-                      Singing Bowl
-                    </h1>
-                    <p>
-                    Singing bowls are traditional tools used to create relaxing harmonics and enhance personal meditation. 
-                    The unique tonal sounds are created by tapping the side of the bowl with an instrument, or striker, then running the striker along the bowl's edge.
-                    </p>
-                    <div>
-                      <a href="products.php">Shop Now</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="img-box">
-                    <img src="images/sing.png" alt="">
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item ">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="detail_box">
-                    <h2>
-                      <span> New Collection</span>
-                      <hr>
-                    </h2>
-                    <h1>
-                      Lakhamari
-                    </h1>
-                    <p>
-                    Lakhamari a typical newari sweet which is a traditional sweet among Nepali culture. 
-                    It has two different taste according to its crunchiness and softness but has many varieties according to shape and sizes.
-                    </p>
-                    <div>
-                      <a href="products">Shop Now</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="img-box">
-                    <img src="images/lakh.png" alt="">
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item ">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="detail_box">
-                    <h2>
-                      <span> New Collection</span>
-                      <hr>
-                    </h2>
-                    <h1>
-                      Chhurpi
-                    </h1>
-                    <p>
-                    Chhurpi otherwise known as durkha and chogo/chugo is a traditional cheese consumed in Bhutan and Nepal. 
-                    The two varieties of chhurpi are a soft variety and a hard variety.
-                    </p>
-                    <div>
-                      <a href="products.php">Shop Now</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="img-box">
-                    <img src="images/churpi.png" alt="">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section>
-    <!-- end slider section -->
   </div>
 
-  <!-- item section -->
 
-  <div class="item_section layout_padding2">
-    <div class="container">
-      <div class="item_container">
-        <div class="box">
-          <div class="price">
-            <h6>
-              Best Selling
-            </h6>
-          </div>
-          <div class="img-box">
-            <img src="images/sukuti.png" alt="">
-          </div>
-          <div class="name">
-            <h5>
-              Buff Sukuti
-            </h5>
-          </div>
-        </div>
-        <div class="box">
-          <div class="price">
-            <h6>
-              Best Selling
-            </h6>
-          </div>
-          <div class="img-box">
-            <img src="images/mask.png" alt="">
-          </div>
-          <div class="name">
-            <h5>
-              Mask
-            </h5>
-          </div>
-        </div>
-        <div class="box">
-          <div class="price">
-            <h6>
-              Best Selling
-            </h6>
-          </div>
-          <div class="img-box">
-            <img src="images/buddha.png" alt="">
-          </div>
-          <div class="name">
-            <h5>
-              Buddha Idol
-            </h5>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- end item section -->
 
   <!-- about section -->
 
   <section class="about_section layout_padding2-top layout_padding-bottom">
     <div class="design-box">
-      <img src="images/design-2.png" alt="">
+      <img src="images/flag.png" alt="">
     </div>
     <div class="container">
       <div class="row">
         <div class="col-md-6">
           <div class="detail-box">
+            <div class="heading_container">
               <h2>
                 About KOSELI
               </h2>
+            </div>
             <p>
-            Welcome to <b>KOSELI</b>, your one-stop destination for authentic, handcrafted items from Nepal. We are passionate about showcasing the rich cultural heritage and artisanal craftsmanship that Nepal is renowned for.            </p>
+            Our mission is to bring the beauty and tradition of Nepal to the world, one handcrafted item at a time. 
+            We envision a world where every purchase supports local artisans and contributes to the preservation of Nepal's rich cultural heritage. </br>
+            We offer a wide selection of Nepal-made items, including foods, idols, exquisite jewelry, and much more. 
+            Each item is carefully selected for its craftsmanship, uniqueness, and the story behind it.</br>
+            y purchasing from us, you're not just buying a beautiful item; you're supporting local artisans and contributing to the sustainable development of Nepal. 
+            We work closely with artisans to ensure fair trade practices and provide them with the resources they need to continue their craft.
+            </p>
             <div>
-              <a href="about.php">
-                Read More
+              <a href="index.php">
+              Explore More
               </a>
             </div>
+            <div class="social_box">
+            <a href="https://www.facebook.com/">
+              <img src="images/fb.png" alt="">
+            </a>
+            <a href="https://twitter.com/">
+              <img src="images/twitter.png" alt="">
+            </a>
+           
+            <a href="https://www.instagram.com/">
+              <img src="images/insta.png" alt="">
+            </a>
           </div>
+       
+          </div>
+         
         </div>
         <div class="col-md-6">
           <div class="img-box">
@@ -320,35 +168,11 @@
         </div>
       </div>
     </div>
+  
   </section>
 
   <!-- end about section -->
 
-  
-  
-
-  
-  <!-- client section -->
-
-
-
-  <!-- end client section -->
-
-  <!-- contact section -->
-
-  <section class="contact_section layout_padding">
-    <div class="design-box">
-      <img src="images/design-2.png" alt="">
-    </div>
-    
-    
-       
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end contact section -->
 
   <!-- info section -->
   <section class="info_section ">
@@ -360,7 +184,7 @@
               <a href="">
                 <img src="images/logo.png" alt="">
                 <span>
-                  KOSELI               
+                  KOSELI
                 </span>
               </a>
             </div>
@@ -380,7 +204,7 @@
               <a href="">
                 <img src="images/phone.png" alt="">
                 <span>
-                  042-8063004
+                042-8063333
                 </span>
               </a>
             </div>
@@ -404,16 +228,14 @@
             </h5>
           </div>
           <div class="social_box">
-            <a href="">
+            <a href="https://www.facebook.com/">
               <img src="images/fb.png" alt="">
             </a>
-            <a href="">
+            <a href="https://twitter.com/">
               <img src="images/twitter.png" alt="">
             </a>
-            <a href="">
-              <img src="images/linkedin.png" alt="">
-            </a>
-            <a href="">
+           
+            <a href="https://www.instagram.com/">
               <img src="images/insta.png" alt="">
             </a>
           </div>
