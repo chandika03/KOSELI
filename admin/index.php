@@ -21,7 +21,7 @@ include('style1.php');
 		<div class="sidebar-brand">
       
         <!-- <span style="color:white;font-size:30px;">Hamro Upachar</span> -->
-			<h1 style="color:#fbb534;"><span class="lab la-hamrodairy"></span>KOSELI</h1>
+			<h1 style="color:#000000;"><span class="lab la-hamrodairy"></span>KOSELI</h1>
 			
 		</div>
 		<div class="sidebar-menu">

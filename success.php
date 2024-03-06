@@ -1,3 +1,36 @@
+<?php
+        session_start();
+        include('connect.php');
+        $cart = $_SESSION['cart'];
+        foreach($cart as $value){
+               echo  $item = $value['Item_Name'];
+              echo  $price =$value['Price'];
+               echo $quantity = $value['Quantity'];
+               // Prepare an insert statement
+                $query2 = "INSERT INTO customer_order(item_name, price, quantity) VALUES (?, ?, ?)";
+
+                if($stmt = $conn->prepare($query2)){
+                // Bind variables to the prepared statement as parameters
+                $stmt->bind_param("sss", $item, $price, $quantity);
+                
+                // Set parameters
+                $item = $value['Item_Name'];
+                $price = $value['Price'];
+                $quantity = $value['Quantity'];
+                
+                // Attempt to execute the prepared statement
+                if($stmt->execute()){
+                        // echo "Records inserted successfully.";
+                        unset($_SESSION['cart']);
+                } else{
+                        echo "ERROR: Could not execute query: $query2. " . $conn->error;
+                }
+                        }
+                }
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
         <head>

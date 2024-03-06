@@ -9,10 +9,10 @@ $data=mysqli_query($conn,"SELECT *from student");
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gold Palace</title>
+    <title>KOSELI</title>
     <style>
         .try{
-            background-color: #fbb534;
+            background-color: #F8FAE5;
             width: 600px;
             transform: translateX(400px);
         }
@@ -20,14 +20,13 @@ $data=mysqli_query($conn,"SELECT *from student");
 </head>
 <body>
 <div class="main-content">
-        <header>
+        <!-- <header>
             <h2>
                 <label for="">
                     <span class="las la-bars"></span>
                 </label>
-                Admin Dashboard:
             </h2>
-        </header>
+        </header> -->
 </div>
 <div class="try">
     <?php

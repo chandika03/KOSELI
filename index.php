@@ -26,12 +26,15 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
 
   <div class="hero_area">
-    <!-- header section strats -->
+    <!-- header section starts -->
     <header class="header_section">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
@@ -82,7 +85,7 @@
                             <?php
                             }
                              ?>
-        </li>
+         </li>
                 </li> 
               </ul>
 
@@ -97,16 +100,16 @@
             }
             ?> 
               <a href="cart.php">
-                
-                <img src="images/cart.png" alt="">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <!-- <img src="images/cart1.png" alt=""> -->
                 <div class="cart_number">
                 <?php echo $count; ?>
                 </div>
               </a>
               </div>
-              <form class="form-inline">
+              <!-- <form class="form-inline">
                 <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-              </form>
+              </form> -->
             </div>
           </div>
         </nav>
@@ -116,7 +119,7 @@
     <!-- slider section -->
     <section class=" slider_section position-relative">
       <div class="design-box">
-        <img src="images/design-1.png" alt="">
+        <!-- <img src="images/design-1.png" alt=""> -->
       </div>
       <div class="slider_number-container d-none d-md-block">
         <div class="number-box">

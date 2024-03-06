@@ -85,7 +85,7 @@ body {
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
   padding: 10px 30px;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
 }
 
@@ -145,7 +145,7 @@ a:focus {
 }
 
 .custom_nav-container .navbar-toggler {
-  outline: none;
+  outline: black;
 }
 
 .custom_nav-container .navbar-toggler .navbar-toggler-icon {
@@ -365,7 +365,7 @@ a:focus {
 }
 
 .item_section .item_container .box h6 {
-  color: #fbb534;
+  color: #76453b;
   text-transform: uppercase;
 }
 
@@ -494,7 +494,7 @@ a:focus {
 }
 
 .price_section .price_container .box .detail-box h5 span {
-  color: #fbb534;
+  color: #76453b;
 }
 
 .price_section .price_container .box .detail-box a {
@@ -507,8 +507,8 @@ a:focus {
 }
 
 .price_section .price_container .box:hover a {
-  border-color: #fbb534;
-  color: #fbb534;
+  border-color: #76453b;
+  color: #76453b;
 }
 
 .price_section .price_btn {
@@ -556,7 +556,7 @@ a:focus {
 
 .ring_section .ring_container .detail-box h4 {
   text-transform: uppercase;
-  color: #fbb534;
+  color: #76453b;
 }
 
 .ring_section .ring_container .detail-box a {
@@ -589,7 +589,7 @@ a:focus {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border: 1px solid #fbb534;
+  border: 1px solid #76453b;
   padding: 25px;
   width: 85%;
   margin: 75px auto;

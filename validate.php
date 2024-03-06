@@ -1,6 +1,8 @@
 <?php
 $amount = $_POST['total'];
-
+$name = $_POST['fullname'];
+$email = $_POST['email'];
+$phone = $_POST['phone_no'];
 $paisa = $amount * 100;
 
 $curl = curl_init();
@@ -21,15 +23,15 @@ CURLOPT_POSTFIELDS =>'{
     "purchase_order_name": "test",
 
 "customer_info": {
-    "name": "Test Bahadur",
-    "email": "test@khalti.com",
-    "phone": "9800000001"
+    "name": "' . $name . '",
+    "email": "' . $email . '",
+    "phone": "' . $phone . '"
 }
 }
 
 ',
 CURLOPT_HTTPHEADER => array(
-    'Authorization: key live_secret_key_68791341fdd94846a146f0457ff7b455',
+    'Authorization: key 4c9dafc163bd469e82ae80d3146e49c4',
     'Content-Type: application/json',
 ),
 ));
@@ -52,4 +54,10 @@ if(!empty($response)){
 }else{
     echo "Empty response received.";
 }
+
+// "customer_info": {
+//     "name": "Test Bahadur",
+//     "email": "test@khalti.com",
+//     "phone": "9800000001"
+// }
 ?>

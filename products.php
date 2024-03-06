@@ -109,7 +109,7 @@ $searchneeded=1;
             ?> 
               <a href="cart.php">
                 
-                <img src="images/cart.png" alt="">
+                <img src="images/cart1.png" alt="">
                 <div class="cart_number">
                 <?php echo $count; ?>
                 </div>
@@ -146,7 +146,7 @@ foreach($data as $value){?>
 <div style="float: left; ">
 <tr><img src="<?php echo $value["photo"]  ?> " style="width:2in; height:2in; margin-right:1in; display:flex;"></tr>
 <tr><h3 style="" ><?php echo $value["categoryname"]  ?> </h3>
-    <form method="post" action="productdetail.php"> <input type="hidden" name="id" value="<?php echo  $value["categoryname"] ?>"><input type="submit" name="submit" value="See more" style="background-color:#fbb534;"></form></tr>
+    <form method="post" action="productdetail.php"> <input type="hidden" name="id" value="<?php echo  $value["categoryname"] ?>"><input type="submit" name="submit" value="See more" style="background-color:#76453B;"></form></tr>
 </div>
 <?php
 }

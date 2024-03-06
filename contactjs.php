@@ -8,6 +8,7 @@
 
         $email = $_POST['email'];
         $msng= $_POST['message'];
+
         
 			if(mysqli_query($db, "INSERT INTO contact_page (firstname, lastname, email, message) VALUES 
 			('$firstname','$lastname', '$email','$msng')")) {
@@ -19,7 +20,7 @@
 		// echo " Data inserted successfully.";	
 
 		$msg = "Saved successfully.";
-        header('location:contact.php?errmsg='.$msg);
+        header('location:index.php?errmsg='.$msg);
 	} else {
 		$msg = "Failed to save contact.";
         header('location:contact.php?errmsg='.$msg);

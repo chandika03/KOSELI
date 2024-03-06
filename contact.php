@@ -132,22 +132,22 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <form action="contactjs.php" onsubmit="return Submit()">
+          <form action="contactjs.php" method="POST">
             <div>
-              <input type="text" name="fname" id="name1" placeholder=" First Name" onkeyup="return Submit()" required /> <span id="uspan"></span>
+              <input type="text" name="fname" id="fname" placeholder=" First Name" required /> <span id="uspan"></span>
             </div>
             <div>
-              <input type="text" name="lname" id="lastname2" placeholder="Last Name" onkeyup="return Submit()" required /> <span id="lspan"></span>
+              <input type="text" name="lname" id="lname" placeholder="Last Name" required /> <span id="lspan"></span>
             </div>
             <div>
-              <input type="text" name="email" id="umail3" placeholder="Email" onkeyup="return Submit()" required/> <span id="espan"></span>
+              <input type="email" name="email" id="email" placeholder="Email" required/> <span id="espan"></span>
             </div>
           
             <div>
-              <input type="text" class="message-box" name="message" placeholder="Message" id="msg" cols="10" rows="5" onkeyup="return Submit()" required /> <span id="mspan"></span>
+              <input type="text" class="message-box" name="message" placeholder="Message" id="message" cols="10" rows="5" required /> <span id="mspan"></span>
             </div>
             <div class="d-flex ">
-            <input type="submit" value="Submit" name="submit" style="background-color: #fbb534;" onclick="return Submit()">
+            <input type="submit" value="Submit" name="submit" style="background-color: #76453B;" >
             </div>
           </form>
         </div>

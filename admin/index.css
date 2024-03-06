@@ -1,7 +1,7 @@
 :root {
-  --main-color: black;
-  --color-dark: #1d2231;
-  --text-gray: #8390a2;
+  --main-color: #76453b;
+  --color-dark: #b19470;
+  --text-gray: rgb(212, 129, 212);
 }
 * {
   padding: 0;

@@ -68,9 +68,6 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 
 
 
-
-
-
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center border rounded bg-light my-5">
@@ -119,7 +116,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
             }            
             ?>
             <tr>
-            <a href="product.php"> <input type="submit" value="Add more Product" style="background-color:#fbb534;"></a>
+            <a href="products.php"> <input type="submit" value="Add more Product" style="background-color:#76453B;"></a>
             </tr>
           </tbody>
         </table>
@@ -134,19 +131,19 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
             <br>
             <div class="form-group">
               <label>Full Name</label>
-              <input type="text" name="fullname" id="fname" class="form-control" onkeyup="return BuyProductValidate()"><span id="fspan"></span>
+              <input type="text" name="fullname" id="fname" class="form-control" onkeyup="return BuyProductValidate() " required><span id="fspan"></span>
             </div>
             <div class="form-group">
               <label>Phone Number</label>
-              <input type="number" name="phone_no" id="pnumber" class="form-control" onkeyup="return BuyProductValidate()"><span id="pspan"></span>
+              <input type="number" name="phone_no" id="pnumber" class="form-control" onkeyup="return BuyProductValidate()"required><span id="pspan"></span>
             </div>
             <div class="form-group">
               <label>Shipping Address</label>
-              <input type="text" name="address" id="addre" class="form-control" onkeyup="return BuyProductValidate()"><span id="aspan"></span>
+              <input type="text" name="address" id="addre" class="form-control" onkeyup="return BuyProductValidate()" required><span id="aspan"></span>
             </div>
             <div class="form-group">
               <label>Email</label>
-              <input type="text" name="email" id="mail" class="form-control" onkeyup="return BuyProductValidate()"><span id="espan"></span>
+              <input type="text" name="email" id="mail" class="form-control" onkeyup="return BuyProductValidate()" required><span id="espan"></span>
             </div>
             <?php
             if (isset($_SESSION['cart'])) {
@@ -247,6 +244,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
     ...
 </body>
 </html>
+
 
 
 </body>
