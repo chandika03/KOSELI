@@ -1,5 +1,5 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Papyrus ", sans-serif;
   color: #0c0c0c;
   background-color: #ffffff;
 }
@@ -57,7 +57,7 @@ body {
 
 /*header section*/
 .hero_area {
-  height: 100vh;
+  /* height: 100vh; */
   position: relative;
   background-image: url(../images/hero-bg.png);
   background-size: cover;
@@ -408,7 +408,7 @@ a:focus {
 .about_section .detail-box a {
   display: inline-block;
   padding: 8px 40px;
-  background-color: #0d0806;
+  background-color: #43766c;
   border: 1px solid #0d0806;
   color: #ffffff;
   border-radius: 0;
@@ -754,7 +754,7 @@ a:focus {
 }
 
 .info_section {
-  background-color: #363636;
+  background-color: #ad8b73;
   color: #ffffff;
 }
 
@@ -766,7 +766,7 @@ a:focus {
   -ms-flex-pack: center;
   justify-content: center;
   padding: 100px 10px 45px 10px;
-  background-color: #ffffff;
+  background-color: transparent;
   width: 200px;
   border-radius: 0 0 50px 50px;
 }

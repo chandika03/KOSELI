@@ -38,16 +38,16 @@ foreach($data as $value){?>
 <?php
 if($value['quantity'] > 0){
 if(isset($_SESSION['user_username'])){?>
-<input type="submit" name="Add_To_Cart" value="Add to cart" style="background-color: #fbb534;">
+<input type="submit" name="Add_To_Cart" value="Add to cart" style="background-color: #B19470;">
 <input type="hidden" name="Item_Name" value="<?php echo $value["product"]?>">
 <input type="hidden" name="Price" value="<?php echo $value["price"]?>">
 <?php } 
 else{
-	?> <a href="login.php"><input type="button" name="login" value="Login" style="background-color: #fbb534;"></a><?php
+	?> <a href="login.php"><input type="button" name="login" value="Login" style="background-color: #B19470;"></a><?php
 }
 }
 else{
-	?> <a href="productdetail.php"><input type="button" name="out" value="Out of Stock" style="background-color: #fbb534;"></a><?php
+	?> <a href="productdetail.php"><input type="button" name="out" value="Out of Stock" style="background-color: #B19470;"></a><?php
 }
 ?>
 </form></div>

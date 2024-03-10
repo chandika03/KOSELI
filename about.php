@@ -98,7 +98,7 @@
             ?> 
               <a href="cart.php">
                 
-                <img src="images/cart.png" alt="">
+                <img src="images/cart1.png" alt="">
                 <div class="cart_number">
                 <?php echo $count; ?>
                 </div>
@@ -224,7 +224,7 @@
         <div class="info_social">
           <div class="d-flex justify-content-center">
             <h5 class="info_heading">
-              Follow Us
+              Connect With Us
             </h5>
           </div>
           <div class="social_box">

@@ -122,7 +122,7 @@
         <!-- <img src="images/design-1.png" alt=""> -->
       </div>
       <div class="slider_number-container d-none d-md-block">
-        <div class="number-box">
+        <!-- <div class="number-box">
           <span>
             01
           </span>
@@ -139,24 +139,24 @@
           <span>
             02
           </span>
-        </div>
+        </div> -->
       </div>
       <div class="container">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
+          <!-- <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">01</li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1">02</li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2">03</li>
-          </ol>
+          </ol> -->
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="row">
                 <div class="col-md-6">
                   <div class="detail_box">
-                    <h2>
+                    <!-- <h2>
                       <span> New Collection</span>
                       <hr>
-                    </h2>
+                    </h2> -->
                     <h1>
                       Singing Bowl
                     </h1>
@@ -180,10 +180,10 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="detail_box">
-                    <h2>
+                    <!-- <h2>
                       <span> New Collection</span>
                       <hr>
-                    </h2>
+                    </h2> -->
                     <h1>
                       Lakhamari
                     </h1>
@@ -207,10 +207,10 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="detail_box">
-                    <h2>
+                    <!-- <h2>
                       <span> New Collection</span>
                       <hr>
-                    </h2>
+                    </h2> -->
                     <h1>
                       Chhurpi
                     </h1>
@@ -403,7 +403,7 @@
         <div class="info_social">
           <div class="d-flex justify-content-center">
             <h5 class="info_heading">
-              Follow Us
+              Connect With Us
             </h5>
           </div>
           <div class="social_box">

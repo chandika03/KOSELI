@@ -23,15 +23,16 @@ body {
 }
 
 .wrapper {
-  width: 100%;
-  background: #fff;
+  width: 50%;
+  position: relative;
+  background: transparent;
   border-radius: 5px;
   box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.1);
 }
 
 .wrapper .title {
   height: 90px;
-  background: white;
+  background: transparent;
   border-radius: 5px 5px 0 0;
   color: black;
   font-size: 30px;
@@ -60,6 +61,7 @@ body {
   border: 1px solid lightgrey;
   font-size: 16px;
   transition: all 0.3s ease;
+  background: transparent;
 }
 
 form .row input:focus {
@@ -68,17 +70,17 @@ form .row input:focus {
 }
 
 form .row input::placeholder {
-  color: #999;
+  color: #b19470;
 }
 
 .wrapper form .row i {
   position: absolute;
   width: 47px;
   height: 100%;
-  color: #fff;
+  color: #f8fae5;
   font-size: 18px;
-  background: #fbb534;
-  border: 1px solid #fbb534;
+  background: #76453b;
+  border: 1px solid #76453b;
   border-radius: 5px 0 0 5px;
   display: flex;
   align-items: center;
@@ -90,7 +92,7 @@ form .row input::placeholder {
 }
 
 .wrapper form .pass a {
-  color: #fbb534;
+  color: #76453b;
   font-size: 17px;
   text-decoration: none;
 }
@@ -104,13 +106,13 @@ form .row input::placeholder {
   font-size: 20px;
   font-weight: 500;
   padding-left: 0px;
-  background: white;
+  background: #43766c;
   border: 1px solid black;
   cursor: pointer;
 }
 
 form .button input:hover {
-  background: #fbb534;
+  background: #76453b;
 }
 
 .wrapper form .signup-link {
@@ -120,7 +122,7 @@ form .button input:hover {
 }
 
 .wrapper form .signup-link a {
-  color: #fbb534;
+  color: #76453b;
   text-decoration: none;
 }
 

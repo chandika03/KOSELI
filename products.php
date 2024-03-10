@@ -128,11 +128,11 @@ $searchneeded=1;
 
   
   <div class="featured-product" id="pricing">
-        <h1 style="color: black;">Available Product </h1>
+        <h1 style="color: black;"> Available</h1>
     </div>
-    <div>
-        <h2 style="color: rgb(143, 171, 212);">Category </h2>
-    </div>
+    <!-- <div>
+        <h2 style="color: rgb(143, 171, 212);"> </h2>
+    </div> -->
     <div>
         <?php
                 if($product!=""){
@@ -146,7 +146,7 @@ foreach($data as $value){?>
 <div style="float: left; ">
 <tr><img src="<?php echo $value["photo"]  ?> " style="width:2in; height:2in; margin-right:1in; display:flex;"></tr>
 <tr><h3 style="" ><?php echo $value["categoryname"]  ?> </h3>
-    <form method="post" action="productdetail.php"> <input type="hidden" name="id" value="<?php echo  $value["categoryname"] ?>"><input type="submit" name="submit" value="See more" style="background-color:#76453B;"></form></tr>
+    <form method="post" action="productdetail.php"> <input type="hidden" name="id" value="<?php echo  $value["categoryname"] ?>"><input type="submit" name="submit" value="See more" style="background-color:#B19470;"></form></tr>
 </div>
 <?php
 }
