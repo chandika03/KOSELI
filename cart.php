@@ -7,8 +7,8 @@
   <script src="buyproduct.js"></script>
   <style>
     span {
-      color: red;
-      font-style: italic;
+      color: brown;
+      font-style: Courier New;
     }
     
   </style>
@@ -70,9 +70,9 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 text-center border rounded bg-light my-5">
+      <div class="col-lg-12 text-center border rounded bg-grey my-5">
         <br>
-        <h1>MY CART</h1>
+        <h1>MY CART ITEMS</h1>
       </div>
 
       <div class="col-lg-9">
